@@ -18,14 +18,30 @@
     left: 0px;
     top: 40px;
   }
+  
+  .fat_line_for_image {
+    position: absolute;
+    height: 63px;
+    width: 1000px;
+    left: -1000px;
+    top: 40px;
+    background-color:  #233375;;
+  }
+
+  .spot {
+    position: relative;
+    width: 20px;
+    float: right;
+    height: 20px;
+  }
 
   .human {
     position: absolute;
     width: 560px;
     height: 560px;
     background: url('../images/lenta/human.svg') no-repeat center / contain;
-    right: 40px;
-    top: 212px;
+    right: 0px;
+    top: -90px;
   }
 }
 
@@ -219,6 +235,14 @@
   }
 }
 
+@media (max-width: 1280px) {
+  .head .wrapper .human {
+    right: -50px;
+    height: 500px;
+    width: 500px;
+  }
+}
+
 @media (max-width: 768px) {
   .sacrifice {
     .mini-wrap br {
@@ -226,7 +250,7 @@
     }
 
     .item_column span.fatty {
-      // margin-bottom: 16px;
+
       display: block;
     }
   }
@@ -245,7 +269,7 @@
   }
 
   .head {
-    img {
+   .wrapper img {
       left: -180px;
       top: 40px;
     }

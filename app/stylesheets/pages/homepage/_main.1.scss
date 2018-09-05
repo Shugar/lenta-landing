@@ -219,6 +219,14 @@
   }
 }
 
+@media (max-width: 1280px) {
+  .head .wrapper .human {
+    right: -50px;
+    height: 500px;
+    width: 500px;
+  }
+}
+
 @media (max-width: 768px) {
   .sacrifice {
     .mini-wrap br {
