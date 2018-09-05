@@ -24,8 +24,8 @@
     width: 560px;
     height: 560px;
     background: url('../images/lenta/female_human.svg') no-repeat center / contain;
-    right: 40px;
-    top: 212px;
+    right: 0;
+    top: -90px;
   }
 }
 
@@ -220,8 +220,8 @@
 }
 
 @media (max-width: 1280px) {
-  .head .wrapper .human {
-    right: -50px;
+ .chef .head .human {
+    right: -95px;
     height: 500px;
     width: 500px;
   }
@@ -252,7 +252,7 @@
     }
   }
 
-  .head {
+  .chef .head {
     img {
       left: -180px;
       top: 40px;
@@ -333,7 +333,7 @@
 }
 
 @media( max-width: 321px) {
-  .head {
+  .chef .head {
     img {
       left: -180px;
       top: 40px;

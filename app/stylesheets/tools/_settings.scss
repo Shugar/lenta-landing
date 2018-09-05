@@ -43,6 +43,24 @@ h1, h2, h3, h4, h5, p, a {
 
 }
 
+.fat_line_for_image {
+  position: absolute;
+  height: 63px;
+  width: 1000px;
+  left: -1000px;
+  top: 40px;
+  background-color:  #233375;;
+}
+
+  
+.spot {
+  position: relative;
+  width: 20px;
+  float: right;
+  height: 20px;
+}
+
+
 .title {
   display: block;
   font-size: 36px;
@@ -105,4 +123,5 @@ h1, h2, h3, h4, h5, p, a {
   .cool_button {
     margin-left: 0;
   }
+  
 }
